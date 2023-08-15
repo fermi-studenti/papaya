@@ -4,8 +4,7 @@
 {% block content %}
 <main id="main" class="index" tabindex="-1">
     <section>
-        {% set banner = resize_image(path="/static/banner.jpg", width=672, op="fit_width") %}
-        <img src="{{ banner.url }}" class="index-banner" alt="A misty forest."/>
+        <img src="/banner.webp" class="index-banner" alt="Disegno della scuola"/>
         <p>
             {{ config.description }}
         </p>

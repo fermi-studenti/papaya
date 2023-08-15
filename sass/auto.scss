@@ -14,4 +14,12 @@
         @include dark.theme($theme: dark);
         @include syntax-theme-dark.dark;
     }
+
+    .index-banner {
+        filter: invert(100%) hue-rotate(180deg);
+    }
+}
+
+.index-banner {
+    max-width: 100%;
 }
